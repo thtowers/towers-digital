@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Towers Digital - Agência Digital especializada em soluções criativas e inovadoras.">
+    <meta name="description"
+        content="Towers Digital - Agência Digital especializada em soluções criativas e inovadoras.">
     <title>Towers Digital | Transformando Ideias em Realidade</title>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
+
 <body>
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">Towers Digital</a>
-            
+            <a href="#" class="nav__logo">
+                <img src="./src/assets/images/logo1.png" alt="Towers Digital Logo">
+            </a>
+
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
@@ -35,7 +40,7 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="nav__toggle" id="nav-toggle">
                 <span class="nav__toggle-icon"></span>
                 <span class="nav__toggle-icon"></span>
@@ -46,26 +51,162 @@
     <main class="main">
         <!-- Hero Section -->
         <section class="home section" id="home">
-            <div class="home__container container grid">
+            <div class="home__container container"> <!-- Removed grid class for centered layout -->
                 <div class="home__data">
-                    <span class="home__subtitle">Inovação & Estratégia</span>
+                    <span class="home__subtitle">Lançamento 2.0</span>
                     <h1 class="home__title">
-                        Elevamos sua <br>
-                        Presença Digital
+                        A nova era do marketing digital.
                     </h1>
                     <p class="home__description">
-                        Criamos experiências digitais memoráveis que conectam marcas e pessoas através de design, tecnologia e estratégia.
+                        Transformamos dados em experiências. A Towers Digital conecta sua marca ao público certo com uma
+                        plataforma integrada de performance e criatividade.
                     </p>
                     <div class="home__buttons">
-                        <a href="#contact" class="button">Começar Projeto</a>
-                        <a href="#services" class="button button--ghost">Nossos Serviços</a>
+                        <a href="#contact" class="button">Começar Agora</a>
+                        <a href="#services" class="button button--ghost">Ver Plataforma</a>
                     </div>
                 </div>
 
                 <div class="home__visual">
-                    <div class="home__blob">
-                        <!-- Placeholder for 3D/Abstract Graphic -->
-                        <div class="blob-shape"></div>
+                    <!-- CSS-Only Dashboard Mockup -->
+                    <div class="dashboard-preview">
+                        <!-- macOS Window Controls -->
+                        <div class="dashboard-header">
+                            <div class="dash-circle red"></div>
+                            <div class="dash-circle yellow"></div>
+                            <div class="dash-circle green"></div>
+                            <div class="dash-search"></div>
+                        </div>
+
+                        <div class="dashboard-body">
+                            <!-- Sidebar -->
+                            <div class="dashboard-sidebar">
+                                <div class="sidebar-item active"></div>
+                                <div class="sidebar-item"></div>
+                                <div class="sidebar-item"></div>
+                                <div class="sidebar-item"></div>
+                            </div>
+
+                            <!-- Main Content Area -->
+                            <div class="dashboard-content">
+                                <!-- Top Metrics Row -->
+                                <div class="dash-row">
+                                    <div class="dash-card">
+                                        <span class="dash-label">Receita Total</span>
+                                        <div class="dash-value">R$ 142.500</div>
+                                        <div class="dash-chart-bar">
+                                            <div class="dash-chart-fill" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="dash-card">
+                                        <span class="dash-label">Novos Leads</span>
+                                        <div class="dash-value">+892</div>
+                                        <div class="dash-chart-bar">
+                                            <div class="dash-chart-fill"
+                                                style="width: 45%; background-color: var(--text-color-light)"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Recent Activity List -->
+                                <div class="dash-list">
+                                    <div class="dash-list-header">Atividade Recente</div>
+                                    <div class="dash-list-item">
+                                        <div class="dash-avatar"></div>
+                                        <div class="dash-text-group">
+                                            <div class="dash-text-line" style="width: 120px"></div>
+                                            <div class="dash-text-line" style="width: 80px; opacity: 0.5"></div>
+                                        </div>
+                                        <div class="dash-status success">Done</div>
+                                    </div>
+                                    <div class="dash-list-item">
+                                        <div class="dash-avatar"></div>
+                                        <div class="dash-text-group">
+                                            <div class="dash-text-line" style="width: 140px"></div>
+                                            <div class="dash-text-line" style="width: 60px; opacity: 0.5"></div>
+                                        </div>
+                                        <div class="dash-status pending">Pending</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Logo Ticker (Social Proof) -->
+        <section class="section" style="padding-top: 0; padding-bottom: 4rem;">
+            <div class="container" style="text-align: center;">
+                <p style="font-size: 0.875rem; color: var(--text-color-light); margin-bottom: 2rem;">CONFIADO POR
+                    LÍDERES DO SETOR</p>
+                <div
+                    style="display: flex; justify-content: center; gap: 3rem; opacity: 0.5; filter: grayscale(100%); flex-wrap: wrap;">
+                    <!-- Placeholders for Logos -->
+                    <span>Google</span>
+                    <span>Linear</span>
+                    <span>Vercel</span>
+                    <span>Notion</span>
+                    <span>Stripe</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services (Bento Grid) -->
+        <section class="section" id="services">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 3rem;">
+                    <h2 style="font-size: var(--h2-font-size); margin-bottom: 1rem;">Construído para escalar</h2>
+                    <p style="color: var(--text-color); max-width: 600px; margin: 0 auto;">
+                        Nossas ferramentas cobrem todas as etapas do funil, do primeiro clique à conversão final.
+                    </p>
+                </div>
+
+                <div class="bento__grid">
+                    <!-- Card 1 (Large) -->
+                    <div class="bento__card bento__card--large">
+                        <div class="bento__icon">📊</div>
+                        <h3 class="bento__title">Analytics Avançado</h3>
+                        <p class="bento__description">
+                            Painéis integrados que mostram o ROI real em tempo real. Tome decisões baseadas em dados,
+                            não em achismos. Acompanhe cada conversão com precisão milimétrica.
+                        </p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bento__card">
+                        <div class="bento__icon">🎨</div>
+                        <h3 class="bento__title">Design System</h3>
+                        <p class="bento__description">
+                            Interfaces consistentes e belas que convertem visitantes em clientes fiéis.
+                        </p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bento__card">
+                        <div class="bento__icon">⚡</div>
+                        <h3 class="bento__title">Performance</h3>
+                        <p class="bento__description">
+                            Otimização de ponta a ponta para garantir carregamento instantâneo.
+                        </p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="bento__card">
+                        <div class="bento__icon">📱</div>
+                        <h3 class="bento__title">Mobile First</h3>
+                        <p class="bento__description">
+                            Experiências nativas em qualquer dispositivo, sem comprometer a qualidade.
+                        </p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="bento__card">
+                        <div class="bento__icon">🤖</div>
+                        <h3 class="bento__title">Automação AI</h3>
+                        <p class="bento__description">
+                            Agents inteligentes que trabalham 24/7 para sua marca.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -76,7 +217,9 @@
     <footer class="footer section">
         <div class="footer__container container">
             <div class="footer__content">
-                <a href="#" class="footer__logo">Towers Digital</a>
+                <a href="#" class="footer__logo">
+                    <img src="./src/assets/images/logo1.png" alt="Towers Digital Logo">
+                </a>
                 <p class="footer__description">
                     Transformando visões em realidade digital.
                 </p>
@@ -90,4 +233,5 @@
     <!-- Main JS -->
     <script src="./src/js/main.js" type="module"></script>
 </body>
+
 </html>
